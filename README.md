@@ -41,7 +41,7 @@ Note: 6. must be runnnig for the program to receive the stream and consequently 
 ```$ python twitter_to_kafka.py```
 
 7. To check if the data is landing in Kafka:
-$KAFKA_HOME/bin/kafka-console-consumer.sh --zookeeper localhost:2181 --topic twitterstream --frombeginning
+```$KAFKA_HOME/bin/kafka-console-consumer.sh --zookeeper localhost:2181 --topic twitterstream --frombeginning```
 
 8. Run the Program:
  
